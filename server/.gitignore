@@ -1,0 +1,6 @@
+# Paris, version 1 remove test files folder
+/paris/api/v1/test-files
+
+# Wuhan, version 1 remove generated files
+/wuhan/api/v1/generate/hash/algorithm/*
+/wuhan/api/v1/generate/hash/length/*

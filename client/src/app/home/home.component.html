@@ -1,0 +1,57 @@
+<div class="margin-960">
+  <div class="hero">
+    <div class="inner">
+      <h1>zori</h1>
+      <p>a collection of random apps, with free apis</p>
+      <p>
+        <a href="/docs" routerLink="/api">docs</a> //
+        <a href="{{ env.apps.wuhan.href }}" routerLink="{{ env.apps.wuhan.routerLink }}">{{
+          env.apps.wuhan.name
+        }}</a>
+        //
+        <a href="{{ env.apps.paris.href }}" routerLink="{{ env.apps.paris.routerLink }}">{{
+          env.apps.paris.name
+        }}</a>
+      </p>
+    </div>
+  </div>
+  <div class="clr-row">
+    <div class="clr-col-lg-4">
+      <div class="card">
+        <div class="card-header">free api</div>
+        <div class="card-block">
+          all the apps part of zori have a free, easy to use and well documented api attached
+        </div>
+      </div>
+    </div>
+    <div class="clr-col-lg-4">
+      <div class="card">
+        <div class="card-header">open source</div>
+        <div class="card-block">
+          all the apps part of zori are open sourced, which means you can see and use the code
+          anywhere
+        </div>
+      </div>
+    </div>
+    <div class="clr-col-lg-4">
+      <div class="card">
+        <div class="card-header">easy setup</div>
+        <div class="card-block">
+          if you want to use one app from zori or all of zori on your own servers, use our docs
+          setup the apps easily
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="c2a">
+    <div class="inner">
+      <h3>there&rsquo;s nothing more to say</h3>
+      <p>
+        checkout this random app:
+        <a href="{{ randomApp.href }}" routerLink="{{ randomApp.routerLink }}">{{
+          randomApp.name
+        }}</a>
+      </p>
+    </div>
+  </div>
+</div>

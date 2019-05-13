@@ -1,0 +1,33 @@
+<clr-main-container>
+  <clr-header class="header">
+    <div class="branding">
+      <a href="/" routerLink="/" class="nav-link">
+        <span class="title">zori</span>
+      </a>
+    </div>
+    <div class="header-nav" [clr-nav-level]="1">
+      <a
+        class="nav-link"
+        href="{{ env.apps.wuhan.href }}"
+        routerLink="{{ env.apps.wuhan.routerLink }}"
+        routerLinkActive="active"
+        ><span class="nav-text">{{ env.apps.wuhan.name }}</span></a
+      >
+      <a
+        class="nav-link"
+        href="{{ env.apps.paris.href }}"
+        routerLink="{{ env.apps.paris.routerLink }}"
+        routerLinkActive="active"
+        ><span class="nav-text">{{ env.apps.paris.name }}</span></a
+      >
+      <a class="nav-link" href="https://github.com/itsatanos/zori"
+        ><span class="nav-text">github</span></a
+      >
+    </div>
+  </clr-header>
+  <div class="content-container">
+    <div class="content-area padding-{{ routerData.styles.padding }}">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</clr-main-container>

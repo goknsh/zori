@@ -1,0 +1,71 @@
+<div class="margin-960">
+  <span class="label label-info">
+    codename
+    <span class="badge badge-light-blue">wuhan</span>
+  </span>
+  <h1>{{ env.apps.wuhan.name }}</h1>
+  <p>generate hashes based on an algorithm or length</p>
+
+  <clr-tabs>
+    <clr-tab>
+      <button clrTabLink id="algorithm-tab">algorithm</button>
+      <ng-template [(clrIfActive)]="algorithmActive" *clrIfActive="true">
+        <clr-tab-content id="algorithm-content">
+          <div class="tab">
+            <form clrForm clrLayout="vertical" class="login" [formGroup]="loginForm">
+              <p>generate hashes based on algorithm</p>
+              <clr-input-container>
+                <label for="email">email</label>
+                <input
+                  type="email"
+                  name="email"
+                  spellcheck="false"
+                  clrInput
+                  placeholder="jason@atanos.ga"
+                  formControlName="email"
+                />
+                <clr-control-error>email is required and must be valid</clr-control-error>
+              </clr-input-container>
+              <clr-password-container>
+                <label for="password">password</label>
+                <input
+                  type="password"
+                  name="password"
+                  spellcheck="false"
+                  clrPassword
+                  placeholder="myPassword"
+                  formControlName="password"
+                />
+                <clr-control-error>password is required</clr-control-error>
+              </clr-password-container>
+              <div class="error active" [hidden]="ok">
+                {{ errorMessage }}
+              </div>
+              <button
+                class="btn btn-primary"
+                type="submit"
+                (click)="loginFormSubmit()"
+                [disabled]="!loginForm.valid"
+                [clrLoading]="loginBtnState"
+              >
+                LOGIN
+              </button>
+              <a href="/user/signup" routerLink="/user/signup" class="signup">sign up</a>
+            </form>
+          </div>
+        </clr-tab-content>
+      </ng-template>
+    </clr-tab>
+
+    <clr-tab>
+      <button clrTabLink id="length-tab">length</button>
+      <ng-template [(clrIfActive)]="lengthActive">
+        <clr-tab-content id="length-content">
+          <div class="tab">
+            <p>generate hashes based on length</p>
+          </div>
+        </clr-tab-content>
+      </ng-template>
+    </clr-tab>
+  </clr-tabs>
+</div>

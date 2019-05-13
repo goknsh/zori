@@ -1,0 +1,71 @@
+@font-face {
+	font-family: "Airbnb Cereal App";
+	src: url("AirbnbCerealApp-Medium.eot");
+	src: url("AirbnbCerealApp-Medium.eot?#iefix") format("embedded-opentype"),
+		url("AirbnbCerealApp-Medium.woff2") format("woff2"),
+		url("AirbnbCerealApp-Medium.woff") format("woff"),
+		url("AirbnbCerealApp-Medium.ttf") format("truetype"),
+		url("AirbnbCerealApp-Medium.svg#AirbnbCerealApp-Medium") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Airbnb Cereal App";
+	src: url("AirbnbCerealApp-Black.eot");
+	src: url("AirbnbCerealApp-Black.eot?#iefix") format("embedded-opentype"),
+		url("AirbnbCerealApp-Black.woff2") format("woff2"),
+		url("AirbnbCerealApp-Black.woff") format("woff"),
+		url("AirbnbCerealApp-Black.ttf") format("truetype"),
+		url("AirbnbCerealApp-Black.svg#AirbnbCerealApp-Black") format("svg");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Airbnb Cereal App Book";
+	src: url("AirbnbCerealApp-Book.eot");
+	src: url("AirbnbCerealApp-Book.eot?#iefix") format("embedded-opentype"),
+		url("AirbnbCerealApp-Book.woff2") format("woff2"),
+		url("AirbnbCerealApp-Book.woff") format("woff"),
+		url("AirbnbCerealApp-Book.ttf") format("truetype"),
+		url("AirbnbCerealApp-Book.svg#AirbnbCerealApp-Book") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Airbnb Cereal App";
+	src: url("AirbnbCerealApp-Light.eot");
+	src: url("AirbnbCerealApp-Light.eot?#iefix") format("embedded-opentype"),
+		url("AirbnbCerealApp-Light.woff2") format("woff2"),
+		url("AirbnbCerealApp-Light.woff") format("woff"),
+		url("AirbnbCerealApp-Light.ttf") format("truetype"),
+		url("AirbnbCerealApp-Light.svg#AirbnbCerealApp-Light") format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Airbnb Cereal App";
+	src: url("AirbnbCerealApp-Bold.eot");
+	src: url("AirbnbCerealApp-Bold.eot?#iefix") format("embedded-opentype"),
+		url("AirbnbCerealApp-Bold.woff2") format("woff2"),
+		url("AirbnbCerealApp-Bold.woff") format("woff"),
+		url("AirbnbCerealApp-Bold.ttf") format("truetype"),
+		url("AirbnbCerealApp-Bold.svg#AirbnbCerealApp-Bold") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Airbnb Cereal App Extra";
+	src: url("AirbnbCerealApp-ExtraBold.eot");
+	src: url("AirbnbCerealApp-ExtraBold.eot?#iefix") format("embedded-opentype"),
+		url("AirbnbCerealApp-ExtraBold.woff2") format("woff2"),
+		url("AirbnbCerealApp-ExtraBold.woff") format("woff"),
+		url("AirbnbCerealApp-ExtraBold.ttf") format("truetype"),
+		url("AirbnbCerealApp-ExtraBold.svg#AirbnbCerealApp-ExtraBold") format("svg");
+	font-weight: 800;
+	font-style: normal;
+}
